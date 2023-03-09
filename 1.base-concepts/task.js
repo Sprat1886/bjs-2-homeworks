@@ -9,10 +9,7 @@ function solveEquation(a, b, c) {
   } else if (d === 0) {
       arr.push(-b / (2 * a));
       console.log(`x = ${arr[0]}.`);
-  } else {
-      arr = [];
-      console.log("Корней нет!");
-  }
+  } 
 
   return arr;
 }
